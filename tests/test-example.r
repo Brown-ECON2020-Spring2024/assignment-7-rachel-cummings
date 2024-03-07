@@ -1,4 +1,4 @@
-#library(testdat)
+library(testdat)
 
 # Task 3, tests 1 and 3
 test_that("This is an example test", {
