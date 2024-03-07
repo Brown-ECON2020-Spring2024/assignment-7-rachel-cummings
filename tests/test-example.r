@@ -8,7 +8,7 @@ test_that("This is an example test", {
 test_that("This is an example test", {
   b <- summary(model)$coefficients["gdpPercap", "Estimate"]
   expect_equal(b, 0.00076, tolerance = 0.00001)
-  expect_equal(nrow(data),1704)
+  expect_equal(nrow(data),1705)
 
 })
 
